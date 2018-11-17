@@ -18,4 +18,3 @@ def find_the_cheese(array)
   array.find{|word| cheese.include?(word)}
 end
   
-end
