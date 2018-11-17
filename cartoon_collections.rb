@@ -8,8 +8,8 @@ def summon_captain_planet(array)
   array.collect{|word| word.capitalize << "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  
+def long_planeteer_calls(array)
+  array.any?
 end
 
 def find_the_cheese# code an argument here
